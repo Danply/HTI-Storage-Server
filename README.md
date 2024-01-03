@@ -11,14 +11,14 @@ Follow this video: https://youtu.be/iu-puVuUuzU?t=120
 
 
 
-OPTIONAL
-Installing Windows VM
+# OPTIONAL
+# Installing Windows VM
 If you want to create a virtual windows machine just for the project, 
 you can do that by following this video: https://www.youtube.com/watch?v=sBzL_zoYt6o
 
 
 
-Project Installation
+# Project Installation
 
 1- Download "Project Files.rar", and extract it on desktop. "should look like this https://i.imgur.com/TXzu9tg.png"
 2- Download Xampp, Snort, and Npcap and install them to default directories. "download links in the .txt files"
@@ -58,7 +58,7 @@ the website should be ready to use at this moment.
 
 
 
-SNORT Installation
+# SNORT Installation
 
 1- Extract the "Extract to snort.rar" file to the snort directory "C:\Snort", make sure to Replace all the files "Like this https://i.imgur.com/NFB7Tgq.png"
 2- Get your ip, by opening cmd, and typing ``` ipconfig ```, copy the IPV4 "This one https://i.imgur.com/OiMknxY.png"
@@ -87,7 +87,7 @@ Now snort is running, and waiting for packets to analyze.
 
 
 
-Python Script installation
+# Python Script installation
 
 1- Launch the linux machine, login with username and password "kali" for both.
 2- Copy the "Python Script" from your windows to the Linux machine "This is a link to directly download linux https://fastupload.io/fnVyU1037pLXXzX/file"
