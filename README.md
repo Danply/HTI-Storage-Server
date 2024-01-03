@@ -103,4 +103,4 @@ Now, you can start the snort tool with this command
       python PythonScript.py
   ```
 
-Voila! you should have the script running.
+- Voila! you should have the script running.
