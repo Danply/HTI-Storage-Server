@@ -5,7 +5,7 @@ The project was done on both Windows OS, and Linux OS, so better to setup a virt
 
 # Installing Kali Linux
 
-1. Virtual-Box Download link (106MB): \[Virtual-Box Download\](https://download.virtualbox.org/virtualbox/7.0.12/VirtualBox-7.0.12-159484-Win.exe)
+1. Virtual-Box Download link (106MB):[Virtual-Box Download](https://download.virtualbox.org/virtualbox/7.0.12/VirtualBox-7.0.12-159484-Win.exe)
 2. Kali Linux Pre-built Virtual Machine (3.1GB): https://cdimage.kali.org/kali-2023.4/kali-linux-2023.4-virtualbox-amd64.7z
 - Then Follow this video: https://youtu.be/iu-puVuUuzU?t=120
 
