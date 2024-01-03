@@ -61,9 +61,9 @@ the website should be ready to use at this moment.
 
 # SNORT Installation
 
-1. Extract the "Extract to snort.rar" file to the snort directory "C:\Snort", make sure to Replace all the files "Like this https://i.imgur.com/NFB7Tgq.png"
-2. Get your ip, by opening cmd, and typing ``` ipconfig ```, copy the IPV4 "This one https://i.imgur.com/OiMknxY.png"
-3. goto "C:\Snort\etc" and open the "snort.conf" with notepad, and replace this ip under the "step #1" with your ip "https://i.imgur.com/QIKNuck.png"
+1. Extract the "Extract to snort.rar" file to the snort directory "C:\Snort", make sure to Replace all the files "[Like this](https://i.imgur.com/NFB7Tgq.png)"
+2. Get your ip, by opening cmd, and typing ``` ipconfig ```, copy the IPV4 "[This one](https://i.imgur.com/OiMknxY.png)"
+3. goto "C:\Snort\etc" and open the "snort.conf" with notepad, and replace this ip under the "step #1" with your ip "[Exact location](https://i.imgur.com/QIKNuck.png)"
 4. Open cmd, and type the next command:
 
 
@@ -76,7 +76,7 @@ the website should be ready to use at this moment.
 - ```
   snort -W
   ```
-- you should see different interfaces, but only one with the same IPv4 you entered in the snort.conf before "Example https://i.imgur.com/o2KVZan.png"
+- you should see different interfaces, but only one with the same IPv4 you entered in the snort.conf before "[Example](https://i.imgur.com/o2KVZan.png)"
 Now, you can start the snort tool with this command
 - ```
   cd c:\Snort\bin
@@ -90,7 +90,7 @@ Now, you can start the snort tool with this command
 # Python Script installation
 
 1. Launch the linux machine, login with username and password "kali" for both.
-2. Copy the "Python Script" from your windows to the Linux machine "This is a link to directly download linux https://fastupload.io/fnVyU1037pLXXzX/file"
+2. Copy the "Python Script" from your windows to the Linux machine "[Link to Directrly Download on Linux](https://fastupload.io/fnVyU1037pLXXzX/file)"
 3. open a Terminal, and type the next commands
 
       - ```
