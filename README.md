@@ -72,15 +72,15 @@ the website should be ready to use at this moment.
   ```
 
 - It should run with no erros, after that you need to know your Interface that your going to work with, type the next command to find out
-      - ```
+- ```
   snort -W
-        ```
+  ```
 - you should see different interfaces, but only one with the same IPv4 you entered in the snort.conf before "Example https://i.imgur.com/o2KVZan.png"
 Now, you can start the snort tool with this command
-      - ```
+- ```
   cd c:\Snort\bin
   snort -i 1 -c c:\Snort\etc\snort.conf -A console
-        ```
+  ```
 - make sure that this part "snort -i 1" is the same number as your interface.
 - Now snort is running, and waiting for packets to analyze.
 
