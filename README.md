@@ -60,30 +60,29 @@ the website should be ready to use at this moment.
 
 # SNORT Installation
 
-1- Extract the "Extract to snort.rar" file to the snort directory "C:\Snort", make sure to Replace all the files "Like this https://i.imgur.com/NFB7Tgq.png"
-2- Get your ip, by opening cmd, and typing ``` ipconfig ```, copy the IPV4 "This one https://i.imgur.com/OiMknxY.png"
-3- goto "C:\Snort\etc" and open the "snort.conf" with notepad, and replace this ip under the "step #1" with your ip "https://i.imgur.com/QIKNuck.png"
-4- install the Npcap 
-4- Open cmd, and type the next command 
+1. Extract the "Extract to snort.rar" file to the snort directory "C:\Snort", make sure to Replace all the files "Like this https://i.imgur.com/NFB7Tgq.png"
+2. Get your ip, by opening cmd, and typing ``` ipconfig ```, copy the IPV4 "This one https://i.imgur.com/OiMknxY.png"
+3. goto "C:\Snort\etc" and open the "snort.conf" with notepad, and replace this ip under the "step #1" with your ip "https://i.imgur.com/QIKNuck.png"
+4. Open cmd, and type the next command:
 
 
-```
+      - ```
 cd c:\Snort\bin
 snort -i -1 -c c:\Snort\etc\snort.conf -T
-```
+      ```
 
-It should run with no erros, after that you need to know your Interface that your going to work with, type the next command to find out
-```
+- It should run with no erros, after that you need to know your Interface that your going to work with, type the next command to find out
+            - ```
 snort -W
-```
-you should see different interfaces, but only one with the same IPv4 you entered in the snort.conf before "Example https://i.imgur.com/o2KVZan.png"
+            ```
+- you should see different interfaces, but only one with the same IPv4 you entered in the snort.conf before "Example https://i.imgur.com/o2KVZan.png"
 Now, you can start the snort tool with this command
-```
+            - ```
 cd c:\Snort\bin
 snort -i 1 -c c:\Snort\etc\snort.conf -A console
-```
-make sure that this part "snort -i 1" is the same number as your interface.
-Now snort is running, and waiting for packets to analyze.
+            ```
+- make sure that this part "snort -i 1" is the same number as your interface.
+- Now snort is running, and waiting for packets to analyze.
 
 
 
