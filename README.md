@@ -29,24 +29,24 @@ you can do that by following this video: https://www.youtube.com/watch?v=sBzL_zo
             mysql -u root -p
      ```
    - you will be asked to enter a password, just press enter, you will enter the Mysql databse, enter the next code to create a Database:
-            ```
+   - ```
             create Database filehosting;
-            ```
+     ```
    - Verify that you have successfully created a database with this command
-            ```
+   - ```
             show databases;
-            ```
+     ```
             Should look like this "https://i.imgur.com/qQY9R8l.png"
    - Finally, exit our of the Mysql by typing
-            ```
+   - ```
             exit
-            ```
+     ```
    - Back in the main Shell command prompt, type the next command
-            ```
+   - ```
             cd %userprofile%\Desktop
             mysql -u root -p filehosting < filehosting.sql
-            ```
-            this should import the pre built database, to the database you just created.
+     ```
+     this should import the pre built database, to the database you just created.
 
 6. Extract the "file-hosting Website.rar" file to this directory "C:\xampp\htdocs" 
 7. Enter the website with this link "http://localhost/file-hosting"
