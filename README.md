@@ -28,14 +28,17 @@ Project Installation
             ```
             mysql -u root -p
             ```
+            
             you will be asked to enter a password, just press enter, you will enter the Mysql databse, enter the next code to create a Database:
             ```
             create Database filehosting;
             ```
+            
             Verify that you have successfully created a database with this command
             ```
             show databases;
             ```
+            
             should look like this "https://i.imgur.com/qQY9R8l.png"
             Finally, exit our of the Mysql by typing
             ```
