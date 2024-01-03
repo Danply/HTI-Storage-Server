@@ -36,7 +36,8 @@ you can do that by following this video: [Youtube video to install Windows VM](h
      - ```
            show databases;
          ```
-     Should look like this "https://i.imgur.com/qQY9R8l.png"
+     [Should like this](https://i.imgur.com/qQY9R8l.png)
+
    - Finally, exit our of the Mysql by typing
       - ```
            exit
