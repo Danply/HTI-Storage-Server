@@ -88,19 +88,19 @@ Now, you can start the snort tool with this command
 
 # Python Script installation
 
-1- Launch the linux machine, login with username and password "kali" for both.
-2- Copy the "Python Script" from your windows to the Linux machine "This is a link to directly download linux https://fastupload.io/fnVyU1037pLXXzX/file"
-3- open a Terminal, and type the next commands
+1. Launch the linux machine, login with username and password "kali" for both.
+2. Copy the "Python Script" from your windows to the Linux machine "This is a link to directly download linux https://fastupload.io/fnVyU1037pLXXzX/file"
+3. open a Terminal, and type the next commands
 
-```
-cd Downloads
-unzip Python\ Script.zip  -d /home/kali/Desktop/
-```
+      - ```
+            cd Downloads
+            unzip Python\ Script.zip  -d /home/kali/Desktop/
+        ```
 
-The file should be extracted to desktop, Run this commands to launch the script
-```
-cd /home/kali/Desktop/Python
-python PythonScript.py
-```
+- The file should be extracted to desktop, Run this commands to launch the script
+- ```
+      cd /home/kali/Desktop/Python
+      python PythonScript.py
+  ```
 
 Voila! you should have the script running.
