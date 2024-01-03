@@ -50,7 +50,7 @@ you can do that by following this video: [Youtube video to install Windows VM](h
    - this should import the pre built database, to the database you just created.
 
 6. Extract the "file-hosting Website.rar" file to this directory "C:\xampp\htdocs" 
-7. Enter the website with this link "http://localhost/file-hosting"
+7. Enter the website with this [Link](http://localhost/file-hosting)
 
 the website should be ready to use at this moment.
 
