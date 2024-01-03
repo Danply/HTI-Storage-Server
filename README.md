@@ -26,7 +26,7 @@ you can do that by following this video: https://www.youtube.com/watch?v=sBzL_zo
 4. After installing Xampp, open it, launch both Mysql + Apache servers, and click on the "Shell" icon on the right side
 5. in the shell type the next code:
       - ```
-                 mysql -u root -p
+          mysql -u root -p
         ```
    - you will be asked to enter a password, just press enter, you will enter the Mysql databse, enter the next code to create a Database:
       - ```
