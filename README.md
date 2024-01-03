@@ -20,11 +20,11 @@ you can do that by following this video: https://www.youtube.com/watch?v=sBzL_zo
 
 # Project Installation
 
-1- Download "Project Files.rar", and extract it on desktop. "should look like this https://i.imgur.com/TXzu9tg.png"
-2- Download Xampp, Snort, and Npcap and install them to default directories. "download links in the .txt files"
-3- Extract "filehosting Database" in desktop. "Should look like tHis https://i.imgur.com/c6b4Vsv.png"4
-4- After installing Xampp, open it, launch both Mysql + Apache servers, and click on the "Shell" icon on the right side
-5- in the shell type the next code:
+1. Download "Project Files.rar", and extract it on desktop. "should look like this https://i.imgur.com/TXzu9tg.png"
+2. Download Xampp, Snort, and Npcap and install them to default directories. "download links in the .txt files"
+3. Extract "filehosting Database" in desktop. "Should look like tHis https://i.imgur.com/c6b4Vsv.png"4
+4. After installing Xampp, open it, launch both Mysql + Apache servers, and click on the "Shell" icon on the right side
+5. in the shell type the next code:
             ```
             mysql -u root -p
             ```
@@ -48,8 +48,8 @@ you can do that by following this video: https://www.youtube.com/watch?v=sBzL_zo
             ```
             this should import the pre built database, to the database you just created.
 
-6- Extract the "file-hosting Website.rar" file to this directory "C:\xampp\htdocs" 
-7- Enter the website with this link "http://localhost/file-hosting"
+6. Extract the "file-hosting Website.rar" file to this directory "C:\xampp\htdocs" 
+7. Enter the website with this link "http://localhost/file-hosting"
 
 the website should be ready to use at this moment.
 
