@@ -14,15 +14,15 @@ The project was done on both Windows OS, and Linux OS, so better to setup a virt
 # OPTIONAL
 # Installing Windows VM
 If you want to create a virtual windows machine just for the project, 
-you can do that by following this video: https://www.youtube.com/watch?v=sBzL_zoYt6o
+you can do that by following this video: [Youtube video to install Windows VM](https://www.youtube.com/watch?v=sBzL_zoYt6o)
 
 
 
 # Project Installation
 
-1. Download "Project Files.rar", and extract it on desktop. "should look like this https://i.imgur.com/TXzu9tg.png"
+1. Download "Project Files.rar", and extract it on desktop. "[Project File contents](https://i.imgur.com/TXzu9tg.png)"
 2. Download Xampp, Snort, and Npcap and install them to default directories. "download links in the .txt files"
-3. Extract "filehosting Database" in desktop. "Should look like tHis https://i.imgur.com/c6b4Vsv.png"4
+3. Extract "filehosting Database" in desktop. "[filehosting.sql](https://i.imgur.com/c6b4Vsv.png)"
 4. After installing Xampp, open it, launch both Mysql + Apache servers, and click on the "Shell" icon on the right side
 5. in the shell type the next code:
       - ```
