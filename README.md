@@ -67,13 +67,13 @@ the website should be ready to use at this moment.
 
 
       - ```
-cd c:\Snort\bin
-snort -i -1 -c c:\Snort\etc\snort.conf -T
+            cd c:\Snort\bin
+            snort -i -1 -c c:\Snort\etc\snort.conf -T
       ```
 
 - It should run with no erros, after that you need to know your Interface that your going to work with, type the next command to find out
             - ```
-snort -W
+                  snort -W
             ```
 - you should see different interfaces, but only one with the same IPv4 you entered in the snort.conf before "Example https://i.imgur.com/o2KVZan.png"
 Now, you can start the snort tool with this command
